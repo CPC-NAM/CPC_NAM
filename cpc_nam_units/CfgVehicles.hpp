@@ -15,7 +15,7 @@ class CfgVehicles
 		uniformClass = "CPC_nam_gear_us_uniform";
 		hiddenSelectionsTextures[] = {"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\tak_soldier_co.paa"};
 		icon = "iconMan";
-		headgearList[] = {"CPC_nam_gear_us_helmet_m1a1_1",1,"CPC_nam_gear_us_helmet_m1a1_2",1,"CPC_nam_gear_us_helmet_m1a1_3",1,"CPC_nam_gear_us_helmet_m1a1_4",1,"CPC_nam_gear_us_helmet_m1a1_5",1,"CPC_nam_gear_us_helmet_m1a1_6",1,"CPC_nam_gear_us_helmet_m1a1_7",1};
+		headgearList[] = {"H_Booniehat_oli",1,"CPC_nam_gear_us_helmet_m1a1_1",1,"CPC_nam_gear_us_helmet_m1a1_2",1,"CPC_nam_gear_us_helmet_m1a1_3",1,"CPC_nam_gear_us_helmet_m1a1_4",1,"CPC_nam_gear_us_helmet_m1a1_5",1,"CPC_nam_gear_us_helmet_m1a1_6",1,"CPC_nam_gear_us_helmet_m1a1_7",1};
 	};
 	class CPC_nam_soldier_us_r : CPC_nam_soldier_us_base
 	{
@@ -123,8 +123,7 @@ class CfgVehicles
 		respawnweapons[] = {"CUP_srifle_M14","Throw","Put"};
 		magazines[] = {"CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR", "CUP_20Rnd_762x51_DMR", "HandGrenade", "SmokeShell", "SmokeShell"};
 		Respawnmagazines[] = {"CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR", "CUP_20Rnd_762x51_DMR", "HandGrenade", "SmokeShell", "SmokeShell"};
-		headgearList[] = {"H_Booniehat_oli",1"CPC_nam_gear_us_helmet_m1a1_1",0.1,"CPC_nam_gear_us_helmet_m1a1_2",0.1,"CPC_nam_gear_us_helmet_m1a1_3",0.1,"CPC_nam_gear_us_helmet_m1a1_4",0.1,"CPC_nam_gear_us_helmet_m1a1_5",0.1,"CPC_nam_gear_us_helmet_m1a1_6",0.1,"CPC_nam_gear_us_helmet_m1a1_7",0.1};
-	
+
 	};
 	class CPC_nam_soldier_us_pilot : CPC_nam_soldier_us_base
 	{
@@ -171,7 +170,7 @@ class CfgVehicles
 		hiddenSelections[] = {"Camo1","Camo2","insignia"};
 		hiddenSelectionsTextures[] = {"\cpc_nam_gear\data\uniform_viet_01.paa"};
 		icon = "iconMan";
-		headgearList[] = {"CPC_nam_gear_vc_hat_1",1,"TRYK_H_Bandana_H",0.6,"",0.2};
+		headgearList[] = {"CPC_nam_gear_vc_hat_1",0.7,"TRYK_H_Bandana_H",0.3,"",0.3};
 	};
 	class CPC_nam_soldier_vc_r : CPC_nam_soldier_vc_base
 	{
