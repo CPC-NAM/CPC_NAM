@@ -10,3 +10,5 @@ class CfgPatches
 		requiredAddons[] = {};
 	};
 };
+
+#include "CfgMusic.hpp"
