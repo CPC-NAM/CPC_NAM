@@ -1,4 +1,5 @@
 class UniformItem;
+class ItemInfo;
 class CfgWeapons
 {
 	//Uniforms
@@ -53,6 +54,14 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "NAM US ceinture";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\pmc\vte_chara\vte_gear_us_army_vest.p3d";
+			containerClass = "Supply50";
+			mass = 10;
+			armor = 0;
+			passThrough = 1;
+		};
 	};
 	/*class TRYK_V_ChestRig_L;
 	class CPC_nam_gear_us_vest_1: TRYK_V_ChestRig_L
@@ -63,6 +72,42 @@ class CfgWeapons
 		scopeArsenal = 2;
 		displayName = "NAM US harnais";
 	};*/
+	class CUP_V_B_LHDVest_Green;
+	class CPC_nam_gear_us_vest_flak : CUP_V_B_LHDVest_Green
+	{
+		dlc = "cpc_nam";
+		author = "Sparfell";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName="NAM Flak Vest";
+		picture = "\cpc_nam_gear\data\icon_flakvest_us_green_ca.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\CUP_NAVY_LHDVest.p3d";
+		hiddenSelections[]=
+		{
+			"Camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\cpc_nam_gear\data\flakvest_us_green_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply30";
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\CUP_NAVY_LHDVest.p3d";
+			armor=10;
+			passThrough=0.7;
+			mass=60;
+			hiddenSelections[]=
+			{
+				"Camo"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"\cpc_nam_gear\data\flakvest_us_green_co.paa"
+			};
+		};
+	};
+	
 	
 	
 	// Headgears

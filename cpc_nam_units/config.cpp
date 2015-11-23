@@ -5,11 +5,14 @@ class CfgPatches
 		units[] = 
 		{
 			"CPC_nam_soldier_us_r",
+			"CPC_nam_soldier_us_r2",
 			"CPC_nam_soldier_us_tl",
 			"CPC_nam_soldier_us_mg",
 			"CPC_nam_soldier_us_doc",
 			"CPC_nam_soldier_us_eng",
 			"CPC_nam_soldier_us_m",
+			"CPC_nam_soldier_us_pilot",
+			"CPC_nam_soldier_us_gl",
 			"CPC_nam_soldier_vc_r",
 			"CPC_nam_soldier_vc_tl",
 			"CPC_nam_soldier_vc_ar",
