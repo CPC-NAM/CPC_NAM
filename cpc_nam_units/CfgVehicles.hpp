@@ -170,7 +170,7 @@ class CfgVehicles
 		hiddenSelections[] = {"Camo1","Camo2","insignia"};
 		hiddenSelectionsTextures[] = {"\cpc_nam_gear\data\uniform_viet_01.paa"};
 		icon = "iconMan";
-		headgearList[] = {"CPC_nam_gear_vc_hat_1",0.7,"TRYK_H_Bandana_H",0.3,"",0.3};
+		headgearList[] = {"CPC_nam_gear_vc_hat_1",0.8,"TRYK_H_Bandana_H",0.3,"",0.3};
 	};
 	class CPC_nam_soldier_vc_r : CPC_nam_soldier_vc_base
 	{
