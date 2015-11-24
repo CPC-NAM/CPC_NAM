@@ -42,7 +42,15 @@ _cpc_nam_Mags = [
 	"SatchelCharge_Remote_Mag",
 	"ClaymoreDirectionalMine_Remote_Mag",
 	"DemoCharge_Remote_Mag",
-	"CUP_8Rnd_9x18_Makarov_M"
+	"CUP_8Rnd_9x18_Makarov_M",
+
+	
+	//ACE
+	"ACE_HandFlare_White",
+	"ACE_HandFlare_Red",
+	"ACE_HandFlare_Green",
+	"ACE_HandFlare_Yellow"
+	
 	
 	
 ];
@@ -58,7 +66,10 @@ _cpc_nam_backpacks = [
 	"CPC_nam_gear_bag_vest_belt",
 	"CUP_B_RPGPack_Khaki",
 	"CUP_B_CivPack_WDL",
-	"CUP_B_USMC_AssaultPack"
+	"CUP_B_USMC_AssaultPack",
+	
+	//ace
+	"ACE_NonSteerableParachute"
 ];
 
 
@@ -75,6 +86,32 @@ _cpc_nam_items = [
 	"ToolKit",
 	"Medikit",
 	"FirstAidKit",
+	
+	//ACE
+	"ACE_CableTie",
+	"ACE_Clacker",
+	"ACE_M26_Clacker",
+	"ACE_DefusalKit",
+	"ACE_DeadManSwitch",
+	"ACE_Cellphone",
+	"ACE_Flashlight_MX991",
+	"ACE_Flashlight_KSF1",
+	"ACE_Flashlight_XL50",
+	"ACE_EarPlugs",
+	"ACE_wirecutter",
+	"ACE_MapTools",
+	"ACE_quikclot",
+	"ACE_bloodIV",
+	"ACE_bloodIV_500",
+	"ACE_bloodIV_250",
+	"ACE_bodyBag",
+	"ACE_epinephrine",
+	"ACE_morphine",
+	"ACE_tourniquet",
+	"ACE_NVG_Gen1",
+	"ACE_RangeCard",
+	"ACE_Sandbag_empty",
+	"ACE_Yardage450",
 	
 	// Headgears
 	"CPC_nam_gear_us_helmet_m1a1_1",
