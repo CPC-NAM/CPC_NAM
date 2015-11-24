@@ -12,3 +12,5 @@ virer les parties réfléchissantes sur le vest flak
 changer les gunners des hélicos
 
 mine tripwire flare
+
+joli logo
