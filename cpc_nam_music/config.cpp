@@ -11,4 +11,13 @@ class CfgPatches
 	};
 };
 
+class CfgMusicClasses
+{
+	class cpc_nam_musics
+	{
+		displayName = "CPC NAM";
+	};
+};
+
+
 #include "CfgMusic.hpp"

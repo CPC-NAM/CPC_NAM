@@ -6,6 +6,7 @@ class CfgMusic
 		sound[]={"\cpc_nam_music\data\ridevalk.ogg",1,1};
 		duration = 305;
 		theme = "safe";
+		musicClass = "cpc_nam_musics";
 		};
 
 	class cpc_nam_music_gortozaran
@@ -14,6 +15,7 @@ class CfgMusic
 		sound[]={"\cpc_nam_music\data\gortozaran.ogg",1,1};
 		duration = 348;
 		theme = "safe";
+		musicClass = "cpc_nam_musics";
 		};
 		
 	class cpc_nam_music_ForWhatItsWorth
@@ -22,6 +24,7 @@ class CfgMusic
 		sound[]={"\cpc_nam_music\data\For_What_It_s_Worth.ogg",1,1};
 		duration = 160;
 		theme = "safe";
+		musicClass = "cpc_nam_musics";
 		};
 		
 	class cpc_nam_music_FortunateSon
@@ -30,6 +33,7 @@ class CfgMusic
 		sound[]={"\cpc_nam_music\data\Fortunate_Son.ogg",1,1};
 		duration = 139;
 		theme = "safe";
+		musicClass = "cpc_nam_musics";
 		};
 		
 	class cpc_nam_music_OnTheRoadAgain
@@ -38,6 +42,7 @@ class CfgMusic
 		sound[]={"\cpc_nam_music\data\On_The_Road_Again.ogg",1,1};
 		duration = 297;
 		theme = "safe";
+		musicClass = "cpc_nam_musics";
 		};
 		
 	class cpc_nam_music_PaintItBlack
@@ -46,6 +51,7 @@ class CfgMusic
 		sound[]={"\cpc_nam_music\data\Paint_it_Black.ogg",1,1};
 		duration = 226;
 		theme = "safe";
+		musicClass = "cpc_nam_musics";
 		};
 
 	class cpc_nam_music_SweetHomeAlabama
@@ -54,6 +60,7 @@ class CfgMusic
 		sound[]={"\cpc_nam_music\data\Sweet_Home_Alabama.ogg",1,1};
 		duration = 300;
 		theme = "safe";
+		musicClass = "cpc_nam_musics";
 		};
 
 	class cpc_nam_music_BootsWalking
@@ -62,6 +69,7 @@ class CfgMusic
 		sound[]={"\cpc_nam_music\data\Those_Boots_Are_Made_for_Walkin.ogg",1,1};
 		duration = 149;
 		theme = "safe";
+		musicClass = "cpc_nam_musics";
 		};
 
 };
