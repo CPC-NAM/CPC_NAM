@@ -18,6 +18,4 @@ mine tripwire flare
 
 joli logo
 
-le VC est trop resistant par rapport au US en vanilla
-
 boue sur uniform VC

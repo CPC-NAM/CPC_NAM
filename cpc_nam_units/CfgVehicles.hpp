@@ -15,6 +15,133 @@ class CfgVehicles
 		uniformClass = "CPC_nam_gear_us_uniform";
 		hiddenSelectionsTextures[] = {"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\tak_soldier_co.paa"};
 		icon = "iconMan";
+		armor = 2;
+		armorStructural = 0.38;
+		explosionShielding = 0.038;
+		class HitPoints
+		{
+			class HitFace
+			{
+				armor = 1;
+				material = -1;
+				name = "face_hub";
+				passThrough = 0.1;
+				radius = 0.08;
+				explosionShielding = 0.1;
+				minimalHit = 0.01;
+			};
+			class HitNeck: HitFace
+			{
+				armor = 1;
+				material = -1;
+				name = "neck";
+				passThrough = 0.1;
+				radius = 0.1;
+				explosionShielding = 0.5;
+				minimalHit = 0.01;
+			};
+			class HitHead: HitNeck
+			{
+				armor = 1;
+				material = -1;
+				name = "head";
+				passThrough = 0.1;
+				radius = 0.2;
+				explosionShielding = 0.5;
+				minimalHit = 0.01;
+				depends = "HitFace max HitNeck";
+			};
+			class HitPelvis
+			{
+				armor = 1;
+				material = -1;
+				name = "pelvis";
+				passThrough = 0.1;
+				radius = 0.2;
+				explosionShielding = 1;
+				visual = "injury_body";
+				minimalHit = 0.01;
+			};
+			class HitAbdomen: HitPelvis
+			{
+				armor = 1;
+				material = -1;
+				name = "spine1";
+				passThrough = 0.1;
+				radius = 0.15;
+				explosionShielding = 1;
+				visual = "injury_body";
+				minimalHit = 0.01;
+			};
+			class HitDiaphragm: HitAbdomen
+			{
+				armor = 1;
+				material = -1;
+				name = "spine2";
+				passThrough = 0.1;
+				radius = 0.15;
+				explosionShielding = 6;
+				visual = "injury_body";
+				minimalHit = 0.01;
+			};
+			class HitChest: HitDiaphragm
+			{
+				armor = 1;
+				material = -1;
+				name = "spine3";
+				passThrough = 0.1;
+				radius = 0.15;
+				explosionShielding = 6;
+				visual = "injury_body";
+				minimalHit = 0.01;
+			};
+			class HitBody: HitChest
+			{
+				armor = 1000;
+				material = -1;
+				name = "body";
+				passThrough = 0.1;
+				radius = 0.16;
+				explosionShielding = 6;
+				visual = "injury_body";
+				minimalHit = 0.01;
+				depends = "HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
+			};
+			class HitArms
+			{
+				armor = 1;
+				material = -1;
+				name = "arms";
+				passThrough = 1;
+				radius = 0.1;
+				explosionShielding = 1;
+				visual = "injury_hands";
+				minimalHit = 0.01;
+			};
+			class HitHands: HitArms
+			{
+				armor = 1;
+				material = -1;
+				name = "hands";
+				passThrough = 1;
+				radius = 0.1;
+				explosionShielding = 1;
+				visual = "injury_hands";
+				minimalHit = 0.01;
+				depends = "HitArms";
+			};
+			class HitLegs
+			{
+				armor = 1;
+				material = -1;
+				name = "legs";
+				passThrough = 1;
+				radius = 0.12;
+				explosionShielding = 1;
+				visual = "injury_legs";
+				minimalHit = 0.01;
+			};
+		};
 		headgearList[] = {"H_Booniehat_oli",1,"CPC_nam_gear_us_helmet_m1a1_1",1,"CPC_nam_gear_us_helmet_m1a1_2",1,"CPC_nam_gear_us_helmet_m1a1_3",1,"CPC_nam_gear_us_helmet_m1a1_4",1,"CPC_nam_gear_us_helmet_m1a1_5",1,"CPC_nam_gear_us_helmet_m1a1_6",1,"CPC_nam_gear_us_helmet_m1a1_7",1};
 	};
 	class CPC_nam_soldier_us_r : CPC_nam_soldier_us_base
@@ -170,6 +297,133 @@ class CfgVehicles
 		hiddenSelections[] = {"Camo1","Camo2","insignia"};
 		hiddenSelectionsTextures[] = {"\cpc_nam_gear\data\uniform_viet_01.paa"};
 		icon = "iconMan";
+		armor = 2;
+		armorStructural = 0.38;
+		explosionShielding = 0.038;
+		class HitPoints
+		{
+			class HitFace
+			{
+				armor = 1;
+				material = -1;
+				name = "face_hub";
+				passThrough = 0.1;
+				radius = 0.08;
+				explosionShielding = 0.1;
+				minimalHit = 0.01;
+			};
+			class HitNeck: HitFace
+			{
+				armor = 1;
+				material = -1;
+				name = "neck";
+				passThrough = 0.1;
+				radius = 0.1;
+				explosionShielding = 0.5;
+				minimalHit = 0.01;
+			};
+			class HitHead: HitNeck
+			{
+				armor = 1;
+				material = -1;
+				name = "head";
+				passThrough = 0.1;
+				radius = 0.2;
+				explosionShielding = 0.5;
+				minimalHit = 0.01;
+				depends = "HitFace max HitNeck";
+			};
+			class HitPelvis
+			{
+				armor = 1;
+				material = -1;
+				name = "pelvis";
+				passThrough = 0.1;
+				radius = 0.2;
+				explosionShielding = 1;
+				visual = "injury_body";
+				minimalHit = 0.01;
+			};
+			class HitAbdomen: HitPelvis
+			{
+				armor = 1;
+				material = -1;
+				name = "spine1";
+				passThrough = 0.1;
+				radius = 0.15;
+				explosionShielding = 1;
+				visual = "injury_body";
+				minimalHit = 0.01;
+			};
+			class HitDiaphragm: HitAbdomen
+			{
+				armor = 1;
+				material = -1;
+				name = "spine2";
+				passThrough = 0.1;
+				radius = 0.15;
+				explosionShielding = 6;
+				visual = "injury_body";
+				minimalHit = 0.01;
+			};
+			class HitChest: HitDiaphragm
+			{
+				armor = 1;
+				material = -1;
+				name = "spine3";
+				passThrough = 0.1;
+				radius = 0.15;
+				explosionShielding = 6;
+				visual = "injury_body";
+				minimalHit = 0.01;
+			};
+			class HitBody: HitChest
+			{
+				armor = 1000;
+				material = -1;
+				name = "body";
+				passThrough = 0.1;
+				radius = 0.16;
+				explosionShielding = 6;
+				visual = "injury_body";
+				minimalHit = 0.01;
+				depends = "HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
+			};
+			class HitArms
+			{
+				armor = 1;
+				material = -1;
+				name = "arms";
+				passThrough = 1;
+				radius = 0.1;
+				explosionShielding = 1;
+				visual = "injury_hands";
+				minimalHit = 0.01;
+			};
+			class HitHands: HitArms
+			{
+				armor = 1;
+				material = -1;
+				name = "hands";
+				passThrough = 1;
+				radius = 0.1;
+				explosionShielding = 1;
+				visual = "injury_hands";
+				minimalHit = 0.01;
+				depends = "HitArms";
+			};
+			class HitLegs
+			{
+				armor = 1;
+				material = -1;
+				name = "legs";
+				passThrough = 1;
+				radius = 0.12;
+				explosionShielding = 1;
+				visual = "injury_legs";
+				minimalHit = 0.01;
+			};
+		};
 		headgearList[] = {"CPC_nam_gear_vc_hat_1",0.8,"TRYK_H_Bandana_H",0.3,"",0.3};
 	};
 	class CPC_nam_soldier_vc_r : CPC_nam_soldier_vc_base
