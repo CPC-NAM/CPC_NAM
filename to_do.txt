@@ -1,4 +1,4 @@
-
+﻿
 r�duire son du m16
 
 musiques - en faut il plus ??
@@ -17,3 +17,7 @@ changer les gunners des h�licos
 mine tripwire flare
 
 joli logo
+
+le VC est trop resistant par rapport au US en vanilla
+
+boue sur uniform VC

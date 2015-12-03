@@ -30,7 +30,7 @@ class CfgWeapons
 		author = "Sparfell";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "NAM Vietcong clothes";
+		displayName = "NAM VC clothes";
 		picture = "\A3\characters_f\data\ui\icon_U_IR_Officer_spc_ca.paa";
 		model = "A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[] = {"camo"};
@@ -59,8 +59,32 @@ class CfgWeapons
 			uniformModel = "\pmc\vte_chara\vte_gear_us_army_vest.p3d";
 			containerClass = "Supply50";
 			mass = 10;
-			armor = 0;
-			passThrough = 1;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=0;
+					PassThrough=1;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=0;
+					PassThrough=1;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=0;
+					passThrough=1;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=1;
+				};
+			};
 		};
 	};
 	/*class TRYK_V_ChestRig_L;
@@ -79,7 +103,7 @@ class CfgWeapons
 		author = "Sparfell";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName="NAM Flak Vest";
+		displayName="NAM US Flak Vest";
 		picture = "\cpc_nam_gear\data\icon_flakvest_us_green_ca.paa";
 		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\CUP_NAVY_LHDVest.p3d";
 		hiddenSelections[]=
@@ -94,8 +118,8 @@ class CfgWeapons
 		{
 			containerClass="Supply30";
 			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\CUP_NAVY_LHDVest.p3d";
-			armor=10;
-			passThrough=0.7;
+			//armor=10;
+			//passThrough=0.7;
 			mass=60;
 			hiddenSelections[]=
 			{
@@ -105,9 +129,305 @@ class CfgWeapons
 			{
 				"\cpc_nam_gear\data\flakvest_us_green_co.paa"
 			};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=10;
+					PassThrough=0.7;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=10;
+					PassThrough=0.7;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=10;
+					passThrough=0.7;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.7;
+				};
+			};
 		};
 	};
 	
+	class CUP_V_B_PilotVest;
+	class CPC_nam_gear_us_vest_pilot : CUP_V_B_PilotVest
+	{
+		dlc = "cpc_nam";
+		author = "Sparfell";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "NAM US Pilot Vest";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=4;
+					PassThrough=0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=4;
+					PassThrough=0.3;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=4;
+					passThrough=0.3;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.3;
+				};
+			};
+		};
+	};
+	
+	class TRYK_LOC_AK_chestrig_OD;
+	class CPC_nam_gear_vc_vest_chestrig_OD : TRYK_LOC_AK_chestrig_OD
+	{
+		dlc = "cpc_nam";
+		author = "Sparfell";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "NAM VC Chestrig OD";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=0;
+					PassThrough=1;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=0;
+					PassThrough=1;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=0;
+					passThrough=1;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=1;
+				};
+			};
+		};
+	};
+	class TRYK_LOC_AK_chestrig_TAN;
+	class CPC_nam_gear_vc_vest_chestrig_TAN : TRYK_LOC_AK_chestrig_TAN
+	{
+		dlc = "cpc_nam";
+		author = "Sparfell";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "NAM VC Chestrig TAN";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=0;
+					PassThrough=1;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=0;
+					PassThrough=1;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=0;
+					passThrough=1;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=1;
+				};
+			};
+		};
+	};
+	
+	class TRYK_V_ChestRig_L;
+	class CPC_nam_gear_us_vest_chestrig_L : TRYK_V_ChestRig_L
+	{
+		dlc = "cpc_nam";
+		author = "Sparfell";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "NAM US Chestrig 1";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=0;
+					PassThrough=1;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=0;
+					PassThrough=1;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=0;
+					passThrough=1;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=1;
+				};
+			};
+		};
+	};
+	class TRYK_V_ChestRig;
+	class CPC_nam_gear_us_vest_chestrig : TRYK_V_ChestRig
+	{
+		dlc = "cpc_nam";
+		author = "Sparfell";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "NAM US Chestrig 2";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=0;
+					PassThrough=1;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=0;
+					PassThrough=1;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=0;
+					passThrough=1;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=1;
+				};
+			};
+		};
+	};
+	
+	
+	class CUP_V_B_RRV_Medic;
+	class CPC_nam_gear_us_vest_1 : CUP_V_B_RRV_Medic
+	{
+		dlc = "cpc_nam";
+		author = "Sparfell";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "NAM US Veste 1";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=10;
+					PassThrough=0.7;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=10;
+					PassThrough=0.7;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=10;
+					passThrough=0.7;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.7;
+				};
+			};
+		};
+	};
+	class CUP_V_B_RRV_Scout;
+	class CPC_nam_gear_us_vest_2 : CUP_V_B_RRV_Scout
+	{
+		dlc = "cpc_nam";
+		author = "Sparfell";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "NAM US Veste 2";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=10;
+					PassThrough=0.7;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=10;
+					PassThrough=0.7;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=10;
+					passThrough=0.7;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.7;
+				};
+			};
+		};
+	};
 	
 	
 	// Headgears
@@ -119,6 +439,18 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "NAM M1A1 (Born To Kill)";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
 	};
 	class m1a1helmet_pln;
 	class CPC_nam_gear_us_helmet_m1a1_2: m1a1helmet_pln
@@ -128,6 +460,18 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "NAM M1A1";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
 	};
 	class m1a1helmet_dsi;
 	class CPC_nam_gear_us_helmet_m1a1_3: m1a1helmet_dsi
@@ -137,6 +481,18 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "NAM M1A1 (Dont shoot)";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
 	};
 	class m1a1helmet_net;
 	class CPC_nam_gear_us_helmet_m1a1_4: m1a1helmet_net
@@ -146,6 +502,18 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "NAM M1A1 (Camo Net)";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
 	};
 	class m1a1helmet_things;
 	class CPC_nam_gear_us_helmet_m1a1_5: m1a1helmet_things
@@ -155,6 +523,18 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "NAM M1A1 (Items)";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
 	};
 	class m1a1helmet_camothings;
 	class CPC_nam_gear_us_helmet_m1a1_6: m1a1helmet_camothings
@@ -164,6 +544,18 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "NAM M1A1 (Camo Items)";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
 	};
 	class m1a1helmet_cigs;
 	class CPC_nam_gear_us_helmet_m1a1_7: m1a1helmet_cigs
@@ -173,6 +565,18 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "NAM M1A1 (Items2)";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
 	};
 	class m1a1helmet_medic;
 	class CPC_nam_gear_us_helmet_m1a1_doc: m1a1helmet_medic
@@ -182,6 +586,18 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "NAM M1A1 Medic";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
 	};
 	class m1a1helmet_camomedic;
 	class CPC_nam_gear_us_helmet_m1a1_doc2: m1a1helmet_camomedic
@@ -191,6 +607,18 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "NAM M1A1 Medic (Camo)";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
 	};
 	class m1a1helmet_camoeng;
 	class CPC_nam_gear_us_helmet_m1a1_eng2: m1a1helmet_camoeng
@@ -200,6 +628,18 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "NAM M1A1 Engineer (Camo)";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
 	};
 	class m1a1helmet_eng;
 	class CPC_nam_gear_us_helmet_m1a1_eng: m1a1helmet_eng
@@ -209,6 +649,18 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "NAM M1A1 Engineer";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
 	};
 	
 	class vietsh_Head;
@@ -219,5 +671,17 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "NAM Chapeau asiatique";
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=0;
+					passThrough=1;
+				};
+			};
+		};
 	};
 };

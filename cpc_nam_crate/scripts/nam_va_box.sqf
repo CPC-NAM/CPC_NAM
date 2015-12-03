@@ -142,16 +142,16 @@ _cpc_nam_items = [
 	//Vests
 	"CPC_nam_gear_us_vest_flak",
 	"CPC_nam_gear_us_vest_belt",
-	"CUP_V_B_PilotVest",
-	"TRYK_LOC_AK_chestrig_OD",
-	"TRYK_LOC_AK_chestrig_TAN",
-	"CUP_V_B_RRV_Medic",
-	"CUP_V_B_RRV_Scout",
+	"CPC_nam_gear_us_vest_pilot",
+	"CPC_nam_gear_vc_vest_chestrig_OD",
+	"CPC_nam_gear_vc_vest_chestrig_TAN",
+	"CPC_nam_gear_us_vest_1",
+	"CPC_nam_gear_us_vest_2",
 	"CUP_V_O_TK_CrewBelt",
 	"CUP_V_O_TK_OfficerBelt2",
 	"CUP_V_O_TK_OfficerBelt",
-	"TRYK_V_ChestRig_L",
-	"TRYK_V_ChestRig",
+	"CPC_nam_gear_us_vest_chestrig_L",
+	"CPC_nam_gear_us_vest_chestrig",
 	
 	//Uniforms
 	"CPC_nam_gear_us_uniform",

@@ -131,8 +131,8 @@ class CfgVehicles
 		scopecurator = 2;
 		displayname = "Heli Pilot";
 		uniformClass = "CUP_U_B_USMC_PilotOverall";
-		linkedItems[] = {"CUP_H_USMC_Helmet_Pilot","CUP_V_B_PilotVest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_H_USMC_Helmet_Pilot","CUP_V_B_PilotVest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CUP_H_USMC_Helmet_Pilot","CPC_nam_gear_us_vest_pilot","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_H_USMC_Helmet_Pilot","CPC_nam_gear_us_vest_pilot","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_hgun_Colt1911","Throw","Put"};
 		respawnweapons[] = {"CUP_hgun_Colt1911","Throw","Put"};
 		magazines[] = {"CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShellGreen"};
@@ -177,8 +177,8 @@ class CfgVehicles
 		scope = 2;
 		scopecurator = 2;
 		displayname = "Combattant (AK-47)";
-		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_nam_gear_vc_vest_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_nam_gear_vc_vest_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_AK47","Throw","Put"};
 		respawnweapons[] = {"CUP_arifle_AK47","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M", "CUP_HandGrenade_RGD5", "SmokeShell", "SmokeShell"};
@@ -190,8 +190,8 @@ class CfgVehicles
 		scopecurator = 2;
 		displayname = "Chef de groupe";
 		icon = "iconManLeader";
-		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","binocular","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","binocular","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_nam_gear_vc_vest_chestrig_OD","binocular","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_nam_gear_vc_vest_chestrig_OD","binocular","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_AK47","Throw","Put"};
 		respawnweapons[] = {"CUP_arifle_AK47","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M", "CUP_HandGrenade_RGD5", "SmokeShell", "SmokeShell"};
@@ -206,8 +206,8 @@ class CfgVehicles
 		picture = "pictureHeal";
 		attendant = 1;
 		backpack = "CPC_nam_gear_bag_alice_vc_doc";
-		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_nam_gear_vc_vest_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_nam_gear_vc_vest_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_AK47","Throw","Put"};
 		respawnweapons[] = {"CUP_arifle_AK47","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M", "CUP_HandGrenade_RGD5", "SmokeShell", "SmokeShell"};
@@ -219,8 +219,8 @@ class CfgVehicles
 		scopecurator = 2;
 		displayname = "Combattant (RPK-74)";
 		icon = "iconManMG";
-		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_nam_gear_vc_vest_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_nam_gear_vc_vest_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_RPK74","Throw","Put"};
 		respawnweapons[] = {"CUP_arifle_RPK74","Throw","Put"};
 		magazines[] = {"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M", "CUP_HandGrenade_RGD5", "SmokeShell", "SmokeShell"};
@@ -236,8 +236,8 @@ class CfgVehicles
 		canDeactivateMines = 1;
 		engineer = 1;
 		backpack = "CPC_nam_gear_bag_alice_vc_eng";
-		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_nam_gear_vc_vest_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_nam_gear_vc_vest_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_AK47","Throw","Put"};
 		respawnweapons[] = {"CUP_arifle_AK47","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M", "CUP_HandGrenade_RGD5", "SmokeShell", "SmokeShell"};
@@ -249,8 +249,8 @@ class CfgVehicles
 		scopecurator = 2;
 		displayname = "Combattant (RPG-7)";
 		backpack = "CPC_nam_gear_bag_RPG_vcat";
-		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_nam_gear_vc_vest_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_nam_gear_vc_vest_chestrig_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_AK47","CUP_launch_RPG7V","Throw","Put"};
 		respawnweapons[] = {"CUP_arifle_AK47","CUP_launch_RPG7V","Throw","Put"};
 		magazines[] = {"CUP_PG7V_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M", "SmokeShell", "SmokeShell"};
