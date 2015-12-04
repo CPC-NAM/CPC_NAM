@@ -81,3 +81,11 @@ class CfgFaces
 		};
 	};
 };
+
+class CfgVoice {
+	
+	class Base;
+	class PER : Base {
+		protocol = "";
+	};
+};
