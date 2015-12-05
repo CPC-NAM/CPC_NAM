@@ -8,14 +8,8 @@ et il va y en avoir bien plus si on ajoute les voix des AI
 
 int�grer les avions
 
-couleurs sac rpg7
-
-virer les parties r�fl�chissantes sur le vest flak
-
 changer les gunners des h�licos
 
 mine tripwire flare
 
 joli logo
-
-boue sur uniform VC

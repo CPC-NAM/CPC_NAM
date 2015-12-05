@@ -147,7 +147,24 @@ class CfgVehicles
 		};
 	};
 	class CUP_B_RPGPack_Khaki;
-	class CPC_nam_gear_bag_RPG_vcat : CUP_B_RPGPack_Khaki
+	class CPC_nam_gear_vc_bag_RPG_khaki : CUP_B_RPGPack_Khaki
+	{
+		dlc = "cpc_nam";
+		author = "Sparfell";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "NAM RPG Pack (Khaki)";
+	};
+	class CPC_nam_gear_vc_bag_RPG_brown : CUP_B_RPGPack_Khaki
+	{
+		dlc = "cpc_nam";
+		author = "Sparfell";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "NAM RPG Pack (Brown)";
+		hiddenSelectionsTextures[] = {"\cpc_nam_gear\data\rpg_equip_brown_co.paa"};
+	};
+	class CPC_nam_gear_bag_RPG_vcat : CPC_nam_gear_vc_bag_RPG_brown
 	{
 		scope = 1;
 		scopeArsenal = 1;

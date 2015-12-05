@@ -295,7 +295,7 @@ class CfgVehicles
 		model = "\A3\characters_F_gamma\Guerrilla\ig_leader.p3d";
 		uniformClass = "CPC_nam_gear_vc_uniform_1";
 		hiddenSelections[] = {"Camo1","Camo2","insignia"};
-		hiddenSelectionsTextures[] = {"\cpc_nam_gear\data\uniform_viet_01.paa"};
+		hiddenSelectionsTextures[] = {"\cpc_nam_gear\data\uniform_viet_02.paa"};
 		icon = "iconMan";
 		armor = 2;
 		armorStructural = 0.38;

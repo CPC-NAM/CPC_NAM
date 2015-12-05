@@ -64,7 +64,8 @@ _cpc_nam_backpacks = [
 	"CPC_nam_gear_bag_alice_Brown",
 	"CPC_nam_gear_bag_alice_Khaki",
 	"CPC_nam_gear_bag_vest_belt",
-	"CUP_B_RPGPack_Khaki",
+	"CPC_nam_gear_vc_bag_RPG_brown",
+	"CPC_nam_gear_vc_bag_RPG_khaki",
 	"CUP_B_CivPack_WDL",
 	"CUP_B_USMC_AssaultPack",
 	

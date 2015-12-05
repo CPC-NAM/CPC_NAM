@@ -105,7 +105,7 @@ class CfgWeapons
 		scopeArsenal = 2;
 		displayName="NAM US Flak Vest";
 		picture = "\cpc_nam_gear\data\icon_flakvest_us_green_ca.paa";
-		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\CUP_NAVY_LHDVest.p3d";
+		model="\cpc_nam_gear\CUP_NAVY_LHDVest.p3d";
 		hiddenSelections[]=
 		{
 			"Camo"
