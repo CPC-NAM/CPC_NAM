@@ -203,7 +203,6 @@ class CfgVehicles
 			"cpc_nam_vehicles\data\NAM_m113a3_02_co.paa"
 		};
 	};
-	class CUP_B_M113_Med_USA;
 	class CPC_nam_armor_M113_2 : CUP_B_M113_Med_USA
 	{
 		dlc = "cpc_nam";
@@ -221,5 +220,46 @@ class CfgVehicles
 			"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_co.paa",
 			"cpc_nam_vehicles\data\NAM_m113a3_02_transport_co.paa"
 		};
+	};
+	
+	class CUP_I_DSHKM_AAF;
+	class CPC_nam_static_dshkm_high_vc : CUP_I_DSHKM_AAF
+	{
+		dlc = "cpc_nam";
+		author = "Sparfell";
+		scope = 2;
+		scopeArsenal = 2;
+		side = 0;
+		faction = "CPC_nam_vietcong";
+		crew = "CPC_nam_soldier_vc_r";	
+	};
+	
+	class CUP_I_DSHkM_Mini_TriPod;
+	class CPC_nam_static_dshkm_low_vc : CUP_I_DSHkM_Mini_TriPod
+	{
+		dlc = "cpc_nam";
+		author = "Sparfell";
+		scope = 2;
+		scopeArsenal = 2;
+		side = 0;
+		faction = "CPC_nam_vietcong";
+		crew = "CPC_nam_soldier_vc_r";	
+	};
+	
+	class Weapon_Bag_Base;
+	class CUP_B_DShkM_Gun_Bag: Weapon_Bag_Base
+	{
+		scope = 2;
+		scopeArsenal = 2;
+	};
+	class CUP_B_DShkM_TripodHigh_Bag: Weapon_Bag_Base
+	{
+		scope = 2;
+		scopeArsenal = 2;
+	};
+	class CUP_B_DShkM_TripodLow_Bag: Weapon_Bag_Base
+	{
+		scope = 2;
+		scopeArsenal = 2;
 	};
 };
