@@ -222,8 +222,8 @@ class CfgVehicles
 		};
 	};
 	
-	class CUP_I_DSHKM_AAF;
-	class CPC_nam_static_dshkm_high_vc : CUP_I_DSHKM_AAF
+	class CUP_DSHKM_base;
+	class CPC_nam_static_dshkm_high_vc : CUP_DSHKM_base
 	{
 		dlc = "cpc_nam";
 		author = "Sparfell";
@@ -231,19 +231,51 @@ class CfgVehicles
 		scopeArsenal = 2;
 		side = 0;
 		faction = "CPC_nam_vietcong";
-		crew = "CPC_nam_soldier_vc_r";	
+		crew = "CPC_nam_soldier_vc_r";
+		typicalCargo[] = {"CPC_nam_soldier_vc_r"};
+		class assembleInfo
+		{
+			primary = 0;
+			base = "";
+			assembleTo = "";
+			dissasembleTo[] = {"CUP_B_DShkM_Gun_Bag","CUP_B_DShkM_TripodHigh_Bag"};
+			displayName = "";
+		};	
 	};
 	
-	class CUP_I_DSHkM_Mini_TriPod;
-	class CPC_nam_static_dshkm_low_vc : CUP_I_DSHkM_Mini_TriPod
+	class CUP_DSHKM_base;
+	class CPC_nam_static_dshkm_low_vc : CUP_DSHKM_base
 	{
 		dlc = "cpc_nam";
 		author = "Sparfell";
 		scope = 2;
 		scopeArsenal = 2;
+		displayname = "DSHkM Minitripod";
 		side = 0;
 		faction = "CPC_nam_vietcong";
-		crew = "CPC_nam_soldier_vc_r";	
+		crew = "CPC_nam_soldier_vc_r";
+		typicalCargo[] = {"CPC_nam_soldier_vc_r"};
+		model = "CUP\Weapons\CUP_Weapons_StaticWeapons\DShKM_mg2.p3d";
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				gunneraction = "LowTripod_Gunner";
+				initturn = 0;
+				maxturn = 90;
+				memorypointsgetingunner = "pos_gunner";
+				memorypointsgetingunnerdir = "pos_gunner_dir";
+				minturn = -90;
+			};
+		};
+		class assembleInfo
+		{
+			primary = 0;
+			base = "";
+			assembleTo = "";
+			dissasembleTo[] = {"CUP_B_DShkM_Gun_Bag","CUP_B_DShkM_TripodLow_Bag"};
+			displayName = "";
+		};	
 	};
 	
 	class Weapon_Bag_Base;
