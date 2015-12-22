@@ -221,7 +221,21 @@ class CfgVehicles
 			"cpc_nam_vehicles\data\NAM_m113a3_02_transport_co.paa"
 		};
 	};
-	
+	class A7;
+	class CPC_nam_air_A7H : A7
+	{
+		dlc = "cpc_nam";
+		author = "Sparfell";
+		scope = 2;
+		scopeArsenal = 2;
+		side = 1;
+		faction = "CPC_nam_US";
+		vehicleClass = "Air";
+		displayName = "NAM A-7H Corsair II (CAS)";
+		crew = "CPC_nam_soldier_us_pilot";		
+		typicalCargo[] = {"CPC_nam_soldier_us_pilot"};
+	};
+	/*
 	class CUP_DSHKM_base;
 	class CPC_nam_static_dshkm_high_vc : CUP_DSHKM_base
 	{
@@ -242,8 +256,6 @@ class CfgVehicles
 			displayName = "";
 		};	
 	};
-	
-	class CUP_DSHKM_base;
 	class CPC_nam_static_dshkm_low_vc : CUP_DSHKM_base
 	{
 		dlc = "cpc_nam";
@@ -294,4 +306,5 @@ class CfgVehicles
 		scope = 2;
 		scopeArsenal = 2;
 	};
+	*/
 };

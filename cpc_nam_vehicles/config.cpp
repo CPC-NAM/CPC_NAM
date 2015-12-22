@@ -17,12 +17,15 @@ class CfgPatches
 			"CPC_nam_armor_M113",
 			"CPC_nam_armor_M113_med",
 			"CPC_nam_armor_M113_2",
+			"CPC_nam_air_A7H"
+			/*
 			"CPC_nam_static_dshkm_high_vc",
 			"CPC_nam_static_dshkm_low_vc"
+			*/
 		};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"GR_Medium_Utility_Helicopters","cpc_nam_units","CUP_TrackedVehicles_M113","CUP_Weapons_StaticWeapons"};
+		requiredAddons[] = {"GR_Medium_Utility_Helicopters","cpc_nam_units","CUP_TrackedVehicles_M113","HAFM_Air"};
 	};
 };
 
