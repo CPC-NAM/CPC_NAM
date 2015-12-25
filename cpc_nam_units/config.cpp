@@ -36,6 +36,14 @@ class CfgFactionClasses
 		priority = 1;
 		side = 1;
 	};
+ /*   	class NAM_Faction_USA
+	{
+		displayName = "Dummy faction";
+		author = "Warzen";
+		icon = "\cpc_nam_units\Data\us_flag_icon.paa";
+		priority = 1;
+		side = 1;
+	};*/
 	class CPC_nam_vietcong
 	{
 		displayName = "Nam Vietcong";

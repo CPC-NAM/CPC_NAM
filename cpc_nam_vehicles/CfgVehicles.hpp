@@ -235,8 +235,12 @@ class CfgVehicles
 		crew = "CPC_nam_soldier_us_pilot";		
 		typicalCargo[] = {"CPC_nam_soldier_us_pilot"};
 	};
-    class ACV_PBR;
-    class CPC_nam_boat_PBR : ACV_PBR
+    class Boat_F;
+    class VTE_pbr : Boat_F
+    {
+        scope = 1;
+    };
+    class CPC_nam_boat_PBR : VTE_pbr
     {
         dlc = "cpc_nam";
 		author = "Warzen";
@@ -244,11 +248,11 @@ class CfgVehicles
 		scopeArsenal = 2;
 		side = 1;
 		faction = "CPC_nam_US";
-		vehicleClass = "Boats";
+		vehicleClass = "Ship";
 		displayName = "NAM PBR";
-		crew = "CPC_nam_soldier_us_pilot";		
-		typicalCargo[] = {"CPC_nam_soldier_us_pilot"};
-    }
+		crew = "CPC_nam_soldier_us_r2";		
+		typicalCargo[] = {"CPC_nam_soldier_us_r2"};
+    };
 	/*
 	class CUP_DSHKM_base;
 	class CPC_nam_static_dshkm_high_vc : CUP_DSHKM_base

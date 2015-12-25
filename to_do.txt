@@ -15,7 +15,6 @@ mine tripwire flare
 joli logo
 
 pour les bateaux, il faut à priori:
-- acv_boats.pbo
 - vte_sea.pbo
 - vte_sea_cfg.pbo
 - vte_sounds_vehicles.pbo
