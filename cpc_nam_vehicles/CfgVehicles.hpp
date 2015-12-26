@@ -239,6 +239,7 @@ class CfgVehicles
     class VTE_pbr : Boat_F
     {
         scope = 1;
+        scopecurator = 0;
     };
     class CPC_nam_boat_PBR : VTE_pbr
     {
