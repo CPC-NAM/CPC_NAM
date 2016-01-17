@@ -18,11 +18,11 @@ class CfgPatches
 			"CPC_nam_armor_M113_med",
 			"CPC_nam_armor_M113_2",
 			"CPC_nam_air_A7H",
-            "CPC_nam_boat_PBR"
-			/*
+            "CPC_nam_boat_PBR",
+			
 			"CPC_nam_static_dshkm_high_vc",
 			"CPC_nam_static_dshkm_low_vc"
-			*/
+			
 		};
 		weapons[] = {};
 		requiredVersion = 0.1;

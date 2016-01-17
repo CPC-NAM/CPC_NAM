@@ -68,6 +68,9 @@ _cpc_nam_backpacks = [
 	"CPC_nam_gear_vc_bag_RPG_khaki",
 	"CUP_B_CivPack_WDL",
 	"CUP_B_USMC_AssaultPack",
+	"CUP_B_DShkM_Gun_Bag",
+	"CUP_B_DShkM_TripodHigh_Bag",
+	"CUP_B_DShkM_TripodLow_Bag",
 	
 	//ace
 	"ACE_NonSteerableParachute"

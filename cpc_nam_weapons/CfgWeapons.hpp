@@ -11,8 +11,8 @@ class CfgWeapons
 		magazines[] = {"CPC_nam_mag_20rnd_556x45"};
 	};
 
-	class CUP_lmg_M60A4;
-	class CPC_nam_weapon_m60 : CUP_lmg_M60A4
+	class CUP_lmg_M60E4;
+	class CPC_nam_weapon_m60 : CUP_lmg_M60E4
 	{
 		dlc = "cpc_nam";
 		author = "Sparfell";
