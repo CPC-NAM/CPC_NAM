@@ -1,19 +1,15 @@
 class CfgVehicles
 {
-	class CUP_USBasicWeapons_EP1;
-	class CPC_nam_crate_VA : CUP_USBasicWeapons_EP1
+	class uns_AmmoBoxUS_army;
+	class CPC_nam_crate_VA : uns_AmmoBoxUS_army
 	{
 		dlc = "cpc_nam";
 		author = "Sparfell";
-		scope = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeArsenal = 0;
 		displayName = "NAM VA Crate";
 		class TransportMagazines{};
 		class TransportWeapons{};
 		class TransportItems{};
-		class EventHandlers
-		{
-			init = "null = _this execVM ""cpc_nam_crate\scripts\nam_va_box.sqf"";";
-		};
 	};
 };

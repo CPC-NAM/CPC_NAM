@@ -1,44 +1,33 @@
 class CfgVehicles
 {
-	class CUP_B_AlicePack_Base;
-	class CPC_nam_gear_bag_alice_green: CUP_B_AlicePack_Base
+	class UNS_Alice_1;
+	class CPC_nam_gear_bag_alice_green: UNS_Alice_1
 	{
 		dlc = "cpc_nam";
 		author = "Sparfell";
-		scope = 2;
-		scopeArsenal = 2;
-		displayName = "NAM Alice Pack (Green)";
-		picture = "\CUP\Weapons\CUP_Weapons_Backpacks\data\ui\icon_b_c_alicepack_tk_ca.paa";
-		hiddenSelectionsTextures[] = {"\cpc_nam_gear\data\alice_equip_green_co.paa"};
+		scope = 1;
+		scopeArsenal = 0;
 	};
-	class CPC_nam_gear_bag_alice_DarkGreen: CUP_B_AlicePack_Base
+	class CPC_nam_gear_bag_alice_DarkGreen: UNS_Alice_1
 	{
 		dlc = "cpc_nam";
 		author = "Sparfell";
-		scope = 2;
-		scopeArsenal = 2;
-		displayName = "NAM Alice Pack (DarkGreen)";
-		picture = "\CUP\Weapons\CUP_Weapons_Backpacks\data\ui\icon_b_c_alicepack_tk_ca.paa";
-		hiddenSelectionsTextures[] = {"\cpc_nam_gear\data\alice_equip_darkgreen_co.paa"};
+		scope = 1;
+		scopeArsenal = 0;
 	};
-	class CPC_nam_gear_bag_alice_Brown: CUP_B_AlicePack_Base
+	class CPC_nam_gear_bag_alice_Brown: UNS_Alice_1
 	{
 		dlc = "cpc_nam";
 		author = "Sparfell";
-		scope = 2;
-		scopeArsenal = 2;
-		displayName = "NAM Alice Pack (Brown)";
-		picture = "\CUP\Weapons\CUP_Weapons_Backpacks\data\ui\icon_b_c_alicepack_tk_ca.paa";
-		hiddenSelectionsTextures[] = {"\cpc_nam_gear\data\alice_equip_brown_co.paa"};
+		scope = 1;
+		scopeArsenal = 0;
 	};
-	class CUP_B_AlicePack_Khaki;
-	class CPC_nam_gear_bag_alice_Khaki : CUP_B_AlicePack_Khaki
+	class CPC_nam_gear_bag_alice_Khaki : UNS_Alice_1
 	{
 		dlc = "cpc_nam";
 		author = "Sparfell";
-		scope = 2;
-		scopeArsenal = 2;
-		displayName = "NAM Alice Pack (Khaki)";
+		scope = 1;
+		scopeArsenal = 0;
 	};
 	class CPC_nam_gear_bag_alice_doc : CPC_nam_gear_bag_alice_DarkGreen
 	{
@@ -102,7 +91,8 @@ class CfgVehicles
 			};
 		};
 	};
-	class CPC_nam_gear_bag_alice_vc_doc : CPC_nam_gear_bag_alice_Brown
+	class UNS_NVA_R1;
+	class CPC_nam_gear_bag_alice_vc_doc : UNS_NVA_R1
 	{
 		scope = 1;
 		scopeArsenal = 1;
@@ -120,7 +110,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class CPC_nam_gear_bag_alice_vc_eng : CPC_nam_gear_bag_alice_Brown
+	class CPC_nam_gear_bag_alice_vc_eng : UNS_NVA_R1
 	{
 		scope = 1;
 		scopeArsenal = 1;
@@ -134,63 +124,46 @@ class CfgVehicles
 		};
 		class TransportMagazines
 		{
-			class _xx_CUP_PipeBomb_M
+			class _xx_PipeBomb
 			{
-				magazine = "CUP_PipeBomb_M";
+				magazine = "PipeBomb";
 				count = 2;
 			};
-			class _xx_CUP_MineE_M
+			class _xx_ATMine_Range_Mag
 			{
-				magazine = "CUP_MineE_M";
+				magazine = "ATMine_Range_Mag";
 				count = 1;
 			};
 		};
 	};
-	class CUP_B_RPGPack_Khaki;
-	class CPC_nam_gear_vc_bag_RPG_khaki : CUP_B_RPGPack_Khaki
+	class UNS_NVA_RPG;
+	class CPC_nam_gear_vc_bag_RPG_khaki : UNS_NVA_RPG
 	{
 		dlc = "cpc_nam";
 		author = "Sparfell";
-		scope = 2;
-		scopeArsenal = 2;
-		displayName = "NAM RPG Pack (Khaki)";
-	};
-	class CPC_nam_gear_vc_bag_RPG_brown : CUP_B_RPGPack_Khaki
-	{
-		dlc = "cpc_nam";
-		author = "Sparfell";
-		scope = 2;
-		scopeArsenal = 2;
-		displayName = "NAM RPG Pack (Brown)";
-		hiddenSelectionsTextures[] = {"\cpc_nam_gear\data\rpg_equip_brown_co.paa"};
-	};
-	class CPC_nam_gear_bag_RPG_vcat : CPC_nam_gear_vc_bag_RPG_brown
-	{
 		scope = 1;
-		scopeArsenal = 1;
-		class TransportMagazines
-		{
-			class _xx_CUP_PG7V_M
-			{
-				magazine = "CUP_PG7V_M";
-				count = 3;
-			};
-		};
+		scopeArsenal = 0;
 	};
-	
-	//test de sac ceinture
-	class Bag_Base;
-	class CPC_nam_gear_bag_vest_belt : Bag_Base
+	class CPC_nam_gear_vc_bag_RPG_brown : UNS_NVA_RPG
 	{
 		dlc = "cpc_nam";
 		author = "Sparfell";
-		scope = 2;
-		scopeArsenal = 2;
-		displayName = "NAM US belt";
-		picture = "\A3\Characters_F\data\ui\icon_V_Belt_CA.paa";
-		model = "\pmc\vte_chara\vte_gear_us_army_vest.p3d";
-		maximumLoad = 50;
-		mass = 10;
+		scope = 1;
+		scopeArsenal = 0;
+	};
+	class CPC_nam_gear_bag_RPG_vcat : UNS_NVA_RPG
+	{
+		dlc = "cpc_nam";
+		author = "Sparfell";
+		scope = 1;
+		scopeArsenal = 0;
+	};
+	class CPC_nam_gear_bag_vest_belt : UNS_Alice_1
+	{
+		dlc = "cpc_nam";
+		author = "Sparfell";
+		scope = 1;
+		scopeArsenal = 0;
 	};
 	class CPC_nam_gear_bag_vest_belt_r : CPC_nam_gear_bag_vest_belt
 	{
@@ -211,9 +184,9 @@ class CfgVehicles
 		scopeArsenal = 1;
 		class TransportMagazines
 		{
-			class _xx_CUP_20Rnd_762x51_DMR
+			class _xx_uns_m14mag
 			{
-				magazine = "CUP_20Rnd_762x51_DMR";
+				magazine = "uns_m14mag";
 				count = 3;
 			};
 		};
@@ -224,9 +197,9 @@ class CfgVehicles
 		scopeArsenal = 1;
 		class TransportMagazines
 		{
-			class _xx_CUP_1Rnd_HE_M203
+			class _xx_Uns_1Rnd_HE_M381
 			{
-				magazine = "CUP_1Rnd_HE_M203";
+				magazine = "Uns_1Rnd_HE_M381";
 				count = 12;
 			};
 		};

@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"cpc_nam_core","RH_m4_cfg","CUP_Weapons_M60E4","A3_Weapons_F","A3_Weapons_F_Explosives","CUP_Weapons_Ammunition"};
+		requiredAddons[] = {"cpc_nam_core"};
 	};
 };
 

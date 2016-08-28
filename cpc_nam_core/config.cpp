@@ -26,7 +26,26 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {
+			"uns_main",
+			"CSJ_heli",
+			"CSJ_UH1Gun_c",
+			"uns_A7_c",
+			"uns_AH1G_c",
+			"uns_ammo_c",
+			"uns_armour_c",
+			"uns_army",
+			"UNS_Backpacks",
+			"uns_boats_c",
+			"UNS_Headgear",
+			"uns_jetpil",
+			"uns_m113_c",
+			"uns_PBR_c",
+			"uns_static_c",
+			"uns_uh1d_c",
+			"uns_uniforms_base",
+			"uns_usmc"
+		};
 	};
 };
 
